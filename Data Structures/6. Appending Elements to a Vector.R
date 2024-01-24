@@ -12,7 +12,15 @@
 is_stem_classes <- c(TRUE, TRUE, FALSE, FALSE, FALSE, FALSE, FALSE)
 # Add your code below
 
+<<<<<<< HEAD
 extra_is_stem_classes  <- c(TRUE, FALSE, FALSE)
 new_is_stem_classes_end <- c(is_stem_classes, extra_is_stem_classes)
 new_is_stem_classes_start <- c(extra_is_stem_classes, is_stem_classes)
 
+=======
+extra_is_stem_classes <- c(TRUE, FALSE, FALSE)
+
+new_is_stem_classes <- c(is_stem_classes, extra_is_stem_classes) 
+
+new_is_stem_classes_start <- c(extra_is_stem_classes, is_stem_classes)
+>>>>>>> 71c34393629d739a7302185fa2b8c944cb32be9e
