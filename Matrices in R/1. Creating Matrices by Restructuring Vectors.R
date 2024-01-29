@@ -75,3 +75,6 @@ matrix_2 <- matrix(vector_2, nrow = 4, ncol = 3)
 #Set the parameter byrow to TRUE to restructure the vector by row.
 
 matrix_3 <- matrix(vector_3, nrow = 3, ncol = 5, byrow = TRUE)
+print(matrix_3)
+
+matrix_4 <- matrix_3 + matrix_2
